@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>गजानन ट्रेडिंग कंपनी - तुमचे स्थानिक किराणा दुकान</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="spinner"></div>
+            <p>डेटा लोड करत आहे...</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky-header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-store"></i>
+                <span>गजानन ट्रेडिंग कंपनी</span>
+            </div>
+            
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="उत्पादन शोधा..." autocomplete="off">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+                <div id="search-suggestions" class="search-suggestions"></div>
+            </div>
+            
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" title="डार्क/लाइट मोड">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="cart-toggle" class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count">0</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>गजानन ट्रेडिंग कंपनी</h1>
+                <p>तुमच्या दैनंदिन गरजांसाठी संपूर्ण किराणा माल</p>
+                <button id="explore-btn" class="cta-btn">उत्पादने पाहा</button>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories-section">
+            <h2>उत्पादन श्रेणी</h2>
+            <div id="categories-grid" class="categories-grid">
+                <!-- Categories will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Filters Section -->
+        <section class="filters-section">
+            <div class="filters-container">
+                <div class="filter-group">
+                    <label for="category-filter">श्रेणी:</label>
+                    <select id="category-filter">
+                        <option value="">सर्व श्रेणी</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="sort-filter">क्रमवारी:</label>
+                    <select id="sort-filter">
+                        <option value="name">नावाने</option>
+                        <option value="category">श्रेणीने</option>
+                    </select>
+                </div>
+                <button id="clear-filters" class="clear-btn">फिल्टर साफ करा</button>
+            </div>
+        </section>
+
+        <!-- Explanation Bar - Add this before products-section -->
+
+        <section id="explanation-bar" class="explanation-bar">
+            <div class="explanation-content">
+                <h3>गजानन ट्रेडिंग कंपनी मध्ये आपले स्वागत आहे</h3>
+                <p>वर दिलेल्या कॅटेगरीतून प्रॉडक्ट्स निवडा. फिल्टर वापरून तुमच्या गरजेनुसार शोधा.</p>
+                <i class="fas fa-arrow-up"></i>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products-section">
+            <h2 id="products-title">सर्व उत्पादने</h2>
+            <div id="products-grid" class="products-grid">
+                <!-- Products will be populated by JavaScript -->
+            </div>
+            <div id="no-products" class="no-products" style="display: none;">
+                <i class="fas fa-search"></i>
+                <p>कोणतीही उत्पादने सापडली नाहीत</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Cart Sidebar -->
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-cart"></i> शॉपिंग कार्ट</h3>
+            <button id="close-cart" class="close-btn">&times;</button>
+        </div>
+        <div class="cart-content">
+            <div id="cart-items" class="cart-items">
+                <!-- Cart items will be populated by JavaScript -->
+            </div>
+            <div class="cart-empty" id="cart-empty">
+                <i class="fas fa-shopping-cart"></i>
+                <p>तुमची कार्ट रिकामी आहे</p>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <strong>एकूण: ₹<span id="cart-total">0</span></strong>
+            </div>
+            <button id="checkout-btn" class="checkout-btn">
+                <i class="fas fa-clock"></i>
+                पिकअप वेळ निवडा
+            </button>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div id="checkout-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>पिकअप वेळ निवडा</h3>
+                <button id="close-checkout" class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="customer-name">नाव:</label>
+                    <input type="text" id="customer-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="customer-phone">फोन नंबर:</label>
+                    <input type="tel" id="customer-phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="pickup-date">दिनांक:</label>
+                    <input type="date" id="pickup-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="pickup-time">वेळ:</label>
+                    <select id="pickup-time" required>
+                        <option value="">वेळ निवडा</option>
+                        <option value="09:00">09:00 AM</option>
+                        <option value="10:00">10:00 AM</option>
+                        <option value="11:00">11:00 AM</option>
+                        <option value="12:00">12:00 PM</option>
+                        <option value="13:00">01:00 PM</option>
+                        <option value="14:00">02:00 PM</option>
+                        <option value="15:00">03:00 PM</option>
+                        <option value="16:00">04:00 PM</option>
+                        <option value="17:00">05:00 PM</option>
+                        <option value="18:00">06:00 PM</option>
+                        <option value="19:00">07:00 PM</option>
+                        <option value="20:00">08:00 PM</option>
+                    </select>
+                </div>
+                <div class="order-summary">
+                    <h4>ऑर्डर सारांश:</h4>
+                    <div id="order-items"></div>
+                    <div class="total-amount">
+                        <strong>एकूण रक्कम: ₹<span id="final-total">0</span></strong>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="confirm-order" class="confirm-btn">
+                    <i class="fas fa-check"></i>
+                    ऑर्डर कन्फर्म करा
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Receipt Modal -->
+    <div id="receipt-modal" class="modal">
+        <div class="modal-content receipt-content">
+            <div class="receipt" id="receipt">
+                <!-- Receipt will be generated by JavaScript -->
+            </div>
+            <div class="receipt-actions">
+                <button id="print-receipt" class="print-btn">
+                    <i class="fas fa-print"></i>
+                    रसीद प्रिंट करा
+                </button>
+                <button id="close-receipt" class="close-btn">बंद करा</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Overlay -->
+    <div id="cart-overlay" class="cart-overlay"></div>
+
+    <footer class="site-footer">
+    <div class="footer-content">
+        
+        <!-- Shop Info -->
+        <div class="footer-section">
+            <h4><i class="fas fa-store"></i> गजानन ट्रेडिंग कंपनी</h4>
+            <p>तुमचे विश्वासू किराणा दुकान - Your Trusted Grocery Partner</p>
+            <p><i class="fas fa-map-marker-alt"></i> बस स्टँड समोर, मुख्य रस्ता<br>
+            मंठा, जालना - 431504</p>
+            <p><i class="fas fa-phone"></i> +91-98765-43210</p>
+            <p><i class="fas fa-envelope"></i> info@gajanantrading.com</p>
+        </div>
+        
+        <!-- Store Hours -->
+        <div class="footer-section">
+            <h4><i class="fas fa-clock"></i> दुकान वेळ</h4>
+            <p>सर्व दिवस: सकाळी 9:00 ते रात्री 8:00</p>
+            <p><i class="fas fa-truck"></i> होम डिलिव्हरी उपलब्ध नाही</p>
+            <p><i class="fas fa-shopping-cart"></i> ऑर्डर वेबसाईटवर करा आणि दिलेल्या वेळेनुसार दुकानातून घ्या</p>
+            <p><i class="fas fa-credit-card"></i> रोख व डिजिटल पेमेंट</p>
+        </div>
+        
+        <!-- Services -->
+        <div class="footer-section">
+            <h4><i class="fas fa-tags"></i> आमच्या सेवा</h4>
+            <a href="#"><i class="fas fa-shopping-basket"></i> ताजे किराणा</a>
+            <a href="#"><i class="fas fa-leaf"></i> ऑर्गेनिक प्रॉडक्ट्स</a>
+            <a href="#"><i class="fas fa-percent"></i> दररोज ऑफर्स</a>
+            <a href="#"><i class="fas fa-phone-alt"></i> फोन ऑर्डर सपोर्ट</a>
+        </div>
+        
+        <!-- Social -->
+        <div class="footer-section">
+            <h4><i class="fas fa-heart"></i> आम्हाला फॉलो करा</h4>
+            <a href="#"><i class="fab fa-facebook"></i> फेसबुक</a>
+            <a href="#"><i class="fab fa-instagram"></i> इंस्टाग्राम</a>
+            <a href="#"><i class="fab fa-whatsapp"></i> व्हॉट्सअॅप अपडेट्स</a>
+            
+            <div style="margin-top: 1rem;">
+                <h5>Payment Methods</h5>
+                <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
+                    <i class="fab fa-cc-visa" style="font-size: 1.5rem;"></i>
+                    <i class="fab fa-cc-mastercard" style="font-size: 1.5rem;"></i>
+                    <i class="fas fa-mobile-alt" style="font-size: 1.5rem;"></i>
+                    <span style="font-size: 0.8rem;">UPI, PhonePe, GPay, Paytm</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Copyright -->
+    <div class="footer-copyright">
+        <p>&copy; 2024 गजानन ट्रेडिंग कंपनी. Made with <i class="fas fa-heart" style="color: #ff6b35;"></i> by Varad Lakhotiya</p>
+        <p>ताजे • स्थानिक • विश्वासार्ह</p>
+    </div>
+</footer>
+
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,736 @@
+{
+  "store": "Maharashtra Kirana",
+  "locale": "mr-IN",
+  "sections": [
+    {
+      "id": 1,
+      "title_en": "Grains, Flours, and Pulses",
+      "title_mr": "धान्य, पिठं आणि डाळी",
+      "description": "Staples for Maharashtrian diets: rice, millets, flours and pulses in multiple pack sizes.",
+      "subsections": [
+        {
+          "id": "1.1",
+          "title_en": "Grains & Rice Varieties",
+          "title_mr": "अन्नधान्य आणि तांदळाचे प्रकार",
+          "items": [
+            { "name_en": "Basmati Rice", "name_mr": "बासमती तांदूळ", "pack_sizes": ["1 किलो", "5 किलो", "10 किलो"], "notes": "Premium long-grain rice for biryani and pulao." },
+            { "name_en": "Kolam Rice", "name_mr": "कोलम तांदूळ", "pack_sizes": ["1 किलो", "5 किलो", "10 किलो", "25 किलो"], "variants": ["जुना कोलम", "नवा कोलम"] },
+            { "name_en": "Ambemohar Rice", "name_mr": "आंबेमोहोर तांदूळ", "pack_sizes": ["1 किलो", "5 किलो"] },
+            { "name_en": "Sona Masoori Rice", "name_mr": "सोना मसुरी तांदूळ", "pack_sizes": ["1 किलो", "5 किलो", "10 किलो", "25 किलो"] },
+            { "name_en": "Indrayani Rice", "name_mr": "इंद्रायणी तांदूळ", "pack_sizes": ["1 किलो", "5 किलो", "10 किलो"] },
+            { "name_en": "Wada Kolam Rice", "name_mr": "वाडा कोलम तांदूळ", "pack_sizes": ["1 किलो", "5 किलो", "10 किलो"] },
+            { "name_en": "Jeera Rice (Jeera Samba)", "name_mr": "जिरा राईस / जिरा सांबा", "pack_sizes": ["1 किलो", "5 किलो"] },
+            { "name_en": "Idli Rice", "name_mr": "इडली तांदूळ", "pack_sizes": ["1 किलो", "5 किलो"] },
+            { "name_en": "Brown Rice", "name_mr": "ब्राउन राईस", "pack_sizes": ["1 किलो", "500 ग्रॅम"] },
+            { "name_en": "Red Rice", "name_mr": "लाल तांदूळ", "pack_sizes": ["1 किलो"] },
+            { "name_en": "Broken Rice (Kani)", "name_mr": "कणी / तुकडा तांदूळ", "pack_sizes": ["1 किलो", "5 किलो"], "notes": "Used for Kheer, Bhakri, etc." },
+            { "name_en": "Puffed Rice", "name_mr": "मुरमुरे", "pack_sizes": ["सुटे", "200 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Roasted Puffed Rice (Bhadang)", "name_mr": "भडंग मुरमुरे", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Flattened Rice (Poha)", "name_mr": "पोहे", "variants": ["जाड पोहे", "पातळ पोहे", "दगड पोहे"], "pack_sizes": ["सुटे", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Nylon Poha", "name_mr": "नायलॉन पोहे", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"], "notes": "For Chivda" },
+            { "name_en": "Sago", "name_mr": "साबुदाणा", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Nylon Sago", "name_mr": "नायलॉन साबुदाणा", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम"], "notes": "For fasting snacks" },
+            { "name_en": "Whole Wheat", "name_mr": "गहू", "pack_sizes": ["सुटे", "1 किलो", "5 किलो", "25 किलो"], "variants": ["लोकवन", "शरबती"] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title_en": "Millets & Coarse Grains",
+          "title_mr": "भरडधान्ये",
+          "items": [
+            { "name_en": "Sorghum", "name_mr": "ज्वारी", "pack_sizes": ["सुटे", "1 किलो", "5 किलो"] },
+            { "name_en": "Pearl Millet", "name_mr": "बाजरी", "pack_sizes": ["सुटे", "1 किलो", "5 किलो"] },
+            { "name_en": "Finger Millet (Ragi)", "name_mr": "नाचणी / रागी", "pack_sizes": ["सुटे", "1 किलो"] },
+            { "name_en": "Barnyard Millet", "name_mr": "भगर / वरी", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Amaranth Seeds", "name_mr": "राजगिरा", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Little Millet (Kutki)", "name_mr": "कुटकी / वरी", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Foxtail Millet (Kangni)", "name_mr": "कांगणी / राळं", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Kodo Millet", "name_mr": "कोद्रा / हरिक", "pack_sizes": ["500 ग्रॅम"] },
+            { "name_en": "Proso Millet", "name_mr": "प्रोसो मिलेट / वरी", "pack_sizes": ["500 ग्रॅम"] },
+            { "name_en": "Barley (Jau)", "name_mr": "जव / जवस", "pack_sizes": ["500 ग्रॅम"] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title_en": "Flours & Semolina",
+          "title_mr": "पिठं आणि रवा",
+          "items": [
+            { "name_en": "Whole Wheat Flour (Atta)", "name_mr": "गव्हाचे पीठ / कणिक", "pack_sizes": ["1 किलो", "2 किलो", "5 किलो", "10 किलो"], "brands": ["आशीर्वाद", "पिल्सबरी", "अन्नपूर्णा"] },
+            { "name_en": "Sorghum Flour", "name_mr": "ज्वारीचे पीठ", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Pearl Millet Flour", "name_mr": "बाजरीचे पीठ", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Finger Millet Flour", "name_mr": "नाचणीचे पीठ", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Gram Flour (Besan)", "name_mr": "बेसन / डाळीचे पीठ", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Fine Gram Flour", "name_mr": "बारीक बेसन", "pack_sizes": ["500 ग्रॅम", "1 किलो"], "notes": "For sweets" },
+            { "name_en": "Coarse Gram Flour", "name_mr": "जाडसर बेसन", "pack_sizes": ["500 ग्रॅम", "1 किलो"], "notes": "For Laddoo, Bhajji" },
+            { "name_en": "Rice Flour", "name_mr": "तांदळाचे पीठ", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Refined Flour (Maida)", "name_mr": "मैदा", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Semolina (Rava/Suji)", "name_mr": "रवा / सुजी", "variants": ["बारीक रवा", "जाड रवा"], "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Roasted Semolina", "name_mr": "भाजलेला रवा", "pack_sizes": ["500 ग्रॅम"] },
+            { "name_en": "Cracked Wheat (Dalia/Lapsi)", "name_mr": "लापशी / दलिया", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Corn Flour", "name_mr": "कॉर्न फ्लोअर / मक्याचे पीठ", "pack_sizes": ["100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Arrowroot Powder", "name_mr": "आरारूट पावडर", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Water Chestnut Flour (Singhada)", "name_mr": "शिंगाडा पीठ", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Amaranth Flour", "name_mr": "राजगिरा पीठ", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Barnyard Millet Flour", "name_mr": "भगर / वरीचे पीठ", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Soya Flour", "name_mr": "सोया पीठ", "pack_sizes": ["500 ग्रॅम"] },
+            { "name_en": "Multigrain Flour (Atta Mix)", "name_mr": "मल्टीग्रेन पीठ / भाजणी", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Thalipeeth Bhajani", "name_mr": "थालीपीठ भाजणी", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Vade Peeth (Kombdi Vade)", "name_mr": "वडे पीठ (कोंबडी वडे)", "pack_sizes": ["500 ग्रॅम", "1 किलो"] }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title_en": "Lentils & Pulses",
+          "title_mr": "डाळी आणि कडधान्ये",
+          "items": [
+            { "name_en": "Pigeon Pea (Toor Dal)", "name_mr": "तूर डाळ", "pack_sizes": ["500 ग्रॅम", "1 किलो", "2 किलो", "5 किलो"] },
+            { "name_en": "Oily Toor Dal", "name_mr": "तेलवाली तूर डाळ", "pack_sizes": ["1 किलो", "5 किलो"] },
+            { "name_en": "Split Mung Bean (Yellow)", "name_mr": "मूग डाळ (पिवळी)", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Split Mung Bean with skin (Green)", "name_mr": "मूग डाळ (सालीसकट)", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Red Lentil (Masoor Dal)", "name_mr": "मसूर डाळ", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Whole Red Lentil (Whole Masoor)", "name_mr": "अख्खा मसूर", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Split Bengal Gram (Chana Dal)", "name_mr": "चणा डाळ", "pack_sizes": ["500 ग्रॅम", "1 किलो", "2 किलो"] },
+            { "name_en": "Split Black Gram (Urad Dal)", "name_mr": "उडीद डाळ", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Split Black Gram with skin", "name_mr": "उडीद डाळ (सालीसकट)", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Whole Black Gram (Whole Urad)", "name_mr": "अख्खा उडीद", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Moth Bean (Matki)", "name_mr": "मटकी", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Black-eyed Peas (Chawli)", "name_mr": "चवळी", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Horse Gram (Kulith)", "name_mr": "कुळीथ", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Chickpeas (Kabuli / White)", "name_mr": "काबुली चणे / पांढरे चणे", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Black Chickpeas (Kala Chana)", "name_mr": "काळे चणे", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Green Chickpeas (Hara Chana)", "name_mr": "हिरवे चणे", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"], "notes": "Usually dried" },
+            { "name_en": "Dried Peas (Vatana)", "name_mr": "सुके वाटाणे", "variants": ["हिरवे वाटाणे", "पांढरे वाटाणे"], "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Kidney Beans (Rajma)", "name_mr": "राजमा", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Field Beans (Val)", "name_mr": "वाल", "variants": ["पावटा वाल", "कडवे वाल"], "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Whole Green Gram (Whole Moong)", "name_mr": "अख्खे मूग", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Soya Beans", "name_mr": "सोयाबीन", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Soya Chunks (Soya Wadi)", "name_mr": "सोया वडी", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title_en": "Spices, Oils, and Seasonings",
+      "title_mr": "मसाले, तेल आणि चवीचे पदार्थ",
+      "description": "Whole & powdered spices, regional masala blends, cooking oils, ghee and basic condiments.",
+      "subsections": [
+        {
+          "id": "2.1",
+          "title_en": "Whole & Powdered Spices",
+          "title_mr": "खडे आणि पूड मसाले",
+          "items": [
+            { "name_en": "Turmeric Powder", "name_mr": "हळद पावडर", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Whole Turmeric", "name_mr": "हळकुंड", "pack_sizes": ["100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Chili Powder (Regular)", "name_mr": "लाल तिखट / मिरची पावडर", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "200 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Kashmiri Chili Powder", "name_mr": "काश्मिरी मिरची पावडर", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Bedgi Chili Powder", "name_mr": "बेडगी मिरची पावडर", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Whole Dried Red Chili", "name_mr": "सुकी लाल मिरची", "variants": ["बेडगी", "संकेश्वरी", "लवंगी"], "pack_sizes": ["100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Coriander Powder", "name_mr": "धणे पावडर", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Cumin Powder", "name_mr": "जिरे पावडर", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Coriander-Cumin Powder", "name_mr": "धणे-जिरे पावडर", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Mustard Seeds", "name_mr": "मोहरी / राई", "variants": ["लहान", "मोठी"], "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Cumin Seeds", "name_mr": "जिरे", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Asafoetida (Hing)", "name_mr": "हिंग", "variants": ["खडा हिंग", "पावडर"], "pack_sizes": ["लहान डबी", "50 ग्रॅम"] },
+            { "name_en": "Fenugreek Seeds (Methi)", "name_mr": "मेथी दाणे", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Black Peppercorns", "name_mr": "काळी मिरी", "pack_sizes": ["25 ग्रॅम", "50 ग्रॅम", "100 ग्रॅम"], "variants": ["अख्खी", "पावडर"] },
+            { "name_en": "Cloves", "name_mr": "लवंग", "pack_sizes": ["10 ग्रॅम", "25 ग्रॅम", "50 ग्रॅम"] },
+            { "name_en": "Cinnamon Sticks", "name_mr": "दालचिनी", "pack_sizes": ["10 ग्रॅम", "25 ग्रॅम", "50 ग्रॅम"] },
+            { "name_en": "Green Cardamom", "name_mr": "हिरवी वेलची / वेलदोडा", "pack_sizes": ["10 ग्रॅम", "25 ग्रॅम"] },
+            { "name_en": "Black Cardamom", "name_mr": "काळी वेलची / मसाला वेलची", "pack_sizes": ["10 ग्रॅम", "25 ग्रॅम"] },
+            { "name_en": "Bay Leaf", "name_mr": "तमालपत्र", "pack_sizes": ["10 ग्रॅम", "25 ग्रॅम"] },
+            { "name_en": "Carom Seeds (Ajwain)", "name_mr": "ओवा", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Fennel Seeds (Saunf)", "name_mr": "बडीशेप", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Sesame Seeds", "name_mr": "तीळ", "variants": ["पांढरे", "काळे"], "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Poppy Seeds (Khus Khus)", "name_mr": "खसखस", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Nutmeg", "name_mr": "जायफळ", "pack_sizes": ["1 नग", "2 नग"] },
+            { "name_en": "Mace (Javitri)", "name_mr": "जायपत्री", "pack_sizes": ["10 ग्रॅम", "25 ग्रॅम"] },
+            { "name_en": "Star Anise", "name_mr": "चक्र फूल / बदियान", "pack_sizes": ["10 ग्रॅम", "25 ग्रॅम"] },
+            { "name_en": "Dried Ginger Powder (Sunth)", "name_mr": "सुंठ पावडर", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Dried Mango Powder (Amchur)", "name_mr": "आमचूर पावडर", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Dried Fenugreek Leaves (Kasuri Methi)", "name_mr": "कसुरी मेथी", "pack_sizes": ["25 ग्रॅम", "50 ग्रॅम"] },
+            { "name_en": "Pomegranate Seed Powder (Anardana)", "name_mr": "अनारदाना पावडर", "pack_sizes": ["50 ग्रॅम"] },
+            { "name_en": "Stone Flower (Dagad Phool)", "name_mr": "दगड फूल", "pack_sizes": ["10 ग्रॅम", "25 ग्रॅम"] },
+            { "name_en": "Dry Coconut (Whole)", "name_mr": "सुके खोबरे (गोटा)", "pack_sizes": ["1 नग"] },
+            { "name_en": "Dry Coconut (Half)", "name_mr": "खोबऱ्याची वाटी", "pack_sizes": ["1 नग"] },
+            { "name_en": "Desiccated Coconut", "name_mr": "खोबऱ्याचा कीस", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Mustard Dal (Rai Dal)", "name_mr": "मोहरीची डाळ", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Pickling Spices (Achaar Masala)", "name_mr": "लोणचे मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Saffron (Kesar)", "name_mr": "केशर", "pack_sizes": ["1 ग्रॅम डबी"] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title_en": "Regional Maharashtrian Masala Blends",
+          "title_mr": "प्रादेशिक महाराष्ट्रीयन मसाले",
+          "items": [
+            { "name_en": "Goda Masala", "name_mr": "गोडा मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "200 ग्रॅम"], "brands": ["प्रकाश", "सुहाना", "बेडकर"] },
+            { "name_en": "Kanda Lasun Masala", "name_mr": "कांदा लसूण मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Malvani Masala", "name_mr": "मालवणी मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Kala Masala / Sunday Masala", "name_mr": "काळा मसाला / संडे मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Kolhapuri Masala", "name_mr": "कोल्हापुरी मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Agri Masala", "name_mr": "आगरी मसाला", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Garam Masala", "name_mr": "गरम मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Chai Masala", "name_mr": "चहाचा मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Milk Masala", "name_mr": "दूध मसाला", "pack_sizes": ["50 ग्रॅम"] },
+            { "name_en": "Pav Bhaji Masala", "name_mr": "पाव भाजी मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Misal Masala", "name_mr": "मिसळ मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Biryani/Pulao Masala", "name_mr": "बिर्याणी/पुलाव मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Chole/Chana Masala", "name_mr": "छोले/चना मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Paneer Masala", "name_mr": "पनीर मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Sabji Masala", "name_mr": "भाजी मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Sambar Masala", "name_mr": "सांबार मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Rasam Powder", "name_mr": "रसम पावडर", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Kitchen King Masala", "name_mr": "किचन किंग मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Chat Masala", "name_mr": "चाट मसाला", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Jaljeera Powder", "name_mr": "जलजीरा पावडर", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title_en": "Cooking Oils, Ghee, & Vanaspati",
+          "title_mr": "स्वयंपाकाचे तेल, तूप आणि वनस्पती",
+          "items": [
+            { "name_en": "Groundnut Oil", "name_mr": "शेंगदाणा तेल", "pack_sizes": ["500 मिली", "1 लिटर", "5 लिटर", "15 लिटर टिन"], "variants": ["फिल्टर्ड", "रिफाइंड"] },
+            { "name_en": "Sunflower Oil", "name_mr": "सूर्यफूल तेल", "pack_sizes": ["500 मिली", "1 लिटर", "5 लिटर", "15 लिटर टिन"] },
+            { "name_en": "Soybean Oil", "name_mr": "सोयाबीन तेल", "pack_sizes": ["1 लिटर", "5 लिटर", "15 लिटर टिन"] },
+            { "name_en": "Mustard Oil", "name_mr": "मोहरीचे तेल", "pack_sizes": ["200 मिली", "500 मिली", "1 लिटर"] },
+            { "name_en": "Coconut Oil", "name_mr": "नारळ तेल / खोबरेल तेल", "pack_sizes": ["100 मिली", "200 मिली", "500 मिली", "1 लिटर"] },
+            { "name_en": "Sesame Oil (Til Oil)", "name_mr": "तिळाचे तेल", "pack_sizes": ["200 मिली", "500 मिली", "1 लिटर"] },
+            { "name_en": "Rice Bran Oil", "name_mr": "राईस ब्रॅन तेल", "pack_sizes": ["1 लिटर", "5 लिटर"] },
+            { "name_en": "Palm Oil", "name_mr": "पाम तेल", "pack_sizes": ["1 लिटर", "5 लिटर"] },
+            { "name_en": "Cottonseed Oil", "name_mr": "सरकी तेल", "pack_sizes": ["1 लिटर", "5 लिटर"] },
+            { "name_en": "Ghee", "name_mr": "तूप", "variants": ["गाईचे तूप", "म्हशीचे तूप"], "pack_sizes": ["100 मिली", "200 मिली", "500 मिली", "1 लिटर"] },
+            { "name_en": "Vanaspati Ghee", "name_mr": "वनस्पती तूप", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Olive Oil", "name_mr": "ऑलिव्ह ऑईल", "pack_sizes": ["250 मिली", "500 मिली", "1 लिटर"], "notes": "Less common, but available." }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title_en": "Salt, Sugar, & Jaggery",
+          "title_mr": "मीठ, साखर आणि गूळ",
+          "items": [
+            { "name_en": "Iodized Salt (Powdered)", "name_mr": "मीठ (बारीक)", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Crystal Salt", "name_mr": "खडे मीठ", "pack_sizes": ["1 किलो"] },
+            { "name_en": "Rock Salt (Sendha Namak)", "name_mr": "सैंधव मीठ", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Black Salt (Kala Namak)", "name_mr": "काळं मीठ", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Sugar", "name_mr": "साखर", "pack_sizes": ["500 ग्रॅम", "1 किलो", "2 किलो", "5 किलो"] },
+            { "name_en": "Powdered Sugar (Pithi Sakhar)", "name_mr": "पिठी साखर", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Jaggery Block", "name_mr": "गूळ (ठेळा)", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Jaggery Powder", "name_mr": "गूळ पावडर", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Organic Jaggery", "name_mr": "सेंद्रिय गूळ", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Liquid Jaggery (Kakvi)", "name_mr": "काकवी", "pack_sizes": ["250 मिली बाटली"] },
+            { "name_en": "Sugar Cubes / Mishri", "name_mr": "खडीसाखर", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Brown Sugar", "name_mr": "ब्राउन शुगर", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title_en": "Dairy, Bakery, and Perishables",
+      "title_mr": "दुग्धजन्य पदार्थ, बेकरी आणि नाशवंत वस्तू",
+      "description": "High-turnover daily essentials: milk, bread, core vegetables and fruits.",
+      "subsections": [
+        {
+          "id": "3.1",
+          "title_en": "Dairy & Refrigerated Products",
+          "title_mr": "दुग्धजन्य आणि शीत पदार्थ",
+          "items": [
+            { "name_en": "Milk Pouch", "name_mr": "दूध पिशवी", "variants": ["टोन्ड", "फूल-क्रीम", "गाईचे"], "brands": ["अमूल", "गोकुळ", "मदर डेअरी", "चितळे"], "pack_sizes": ["250 मिली", "500 मिली", "1 लिटर"] },
+            { "name_en": "Milk Tetra Pak", "name_mr": "दूध टेट्रा पॅक", "pack_sizes": ["1 लिटर"] },
+            { "name_en": "Curd (Dahi)", "name_mr": "दही", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "400 ग्रॅम", "1 किलो"] },
+            { "name_en": "Buttermilk (Taak/Chaas)", "name_mr": "ताक / छास", "pack_sizes": ["200 मिली", "500 मिली", "1 लिटर"] },
+            { "name_en": "Lassi", "name_mr": "लस्सी", "variants": ["गोड", "मसाला"], "pack_sizes": ["200 मिली"] },
+            { "name_en": "Butter", "name_mr": "लोणी / बटर", "variants": ["साल्ટેડ", "अनसाल्ટેડ"], "pack_sizes": ["100 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "White Butter (Pandhra Loni)", "name_mr": "पांढरे लोणी", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Cheese Slices", "name_mr": "चीज स्लाइस", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Cheese Block", "name_mr": "चीज ब्लॉक", "pack_sizes": ["200 ग्रॅम", "400 ग्रॅम", "1 किलो"] },
+            { "name_en": "Cheese Spread", "name_mr": "चीज स्प्रेड", "pack_sizes": ["200 ग्रॅम"] },
+            { "name_en": "Paneer", "name_mr": "पनीर", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Khoya / Mawa", "name_mr": "खवा / मावा", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Shrikhand", "name_mr": "श्रीखंड", "variants": ["केशर", "इलायची", "ड्राय फ्रुट"], "pack_sizes": ["100 ग्रॅम", "250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Amrakhand", "name_mr": "आम्रखंड", "pack_sizes": ["100 ग्रॅम", "250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Milk Powder", "name_mr": "मिल्क पावडर", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Condensed Milk", "name_mr": "कंडेन्स्ड मिल्क", "pack_sizes": ["200 ग्रॅम", "400 ग्रॅम"] },
+            { "name_en": "Cream (Malai)", "name_mr": "क्रीम / मलई", "pack_sizes": ["200 मिली"] },
+            { "name_en": "Flavored Milk", "name_mr": "फ्लेवर्ड दूध", "variants": ["बदाम", "पिस्ता", "चॉकलेट"], "pack_sizes": ["200 मिली बाटली"] },
+            { "name_en": "Eggs", "name_mr": "अंडी", "pack_sizes": ["सुटे", "6 नग", "12 नग"] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title_en": "Breads, Biscuits, & Bakery Items",
+          "title_mr": "ब्रेड, बिस्किटे आणि बेकरी",
+          "items": [
+            { "name_en": "Sliced Bread", "name_mr": "ब्रेड", "variants": ["पांढरा", "ब्राऊन", "मल्टीग्रेन"] },
+            { "name_en": "Pav", "name_mr": "पाव", "pack_sizes": ["4 नग", "6 नग", "8 नग", "12 नग"] },
+            { "name_en": "Brun Pav", "name_mr": "बृन पाव", "pack_sizes": ["सुटे", "4 नग"] },
+            { "name_en": "Khari Biscuits", "name_mr": "खारी", "variants": ["साधी", "मसाला", "मेथी"], "pack_sizes": ["200 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Toast / Rusk", "name_mr": "टोस्ट / रस्क", "variants": ["साधा", "इलायची"], "pack_sizes": ["200 ग्रॅम", "400 ग्रॅम"] },
+            { "name_en": "Glucose Biscuits", "name_mr": "ग्लुकोज बिस्किटे", "examples": ["Parle-G", "Britannia Tiger"] },
+            { "name_en": "Marie Biscuits", "name_mr": "मारी बिस्किटे", "examples": ["Britannia Marie Gold", "Sunfeast Marie Lite"] },
+            { "name_en": "Cream Biscuits", "name_mr": "क्रीम बिस्किटे", "examples": ["Oreo", "Britannia Bourbon", "Sunfeast Bounce"] },
+            { "name_en": "Salty/Cracker Biscuits", "name_mr": "खारट बिस्किटे", "examples": ["Monaco", "Krackjack", "50-50"] },
+            { "name_en": "Digestive Biscuits", "name_mr": "डायजेस्टिव्ह बिस्किटे", "examples": ["McVitie's", "NutriChoice"] },
+            { "name_en": "Cookies", "name_mr": "कुकीज", "examples": ["Good Day", "Hide & Seek"] },
+            { "name_en": "Nankhatai", "name_mr": "नानकटाई", "pack_sizes": ["200 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Local Bakery Biscuits", "name_mr": "स्थानिक बेकरी बिस्किटे", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Cupcakes/Muffins", "name_mr": "कप केक / मफिन्स" },
+            { "name_en": "Bread Rolls / Buns", "name_mr": "ब्रेड रोल्स / बन" }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title_en": "Core Vegetables & Fruits",
+          "title_mr": "मुख्य भाजीपाला आणि फळे",
+          "items": [
+            { "name_en": "Onion", "name_mr": "कांदा", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम", "1 किलो", "5 किलो"] },
+            { "name_en": "Potato", "name_mr": "बटाटा", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम", "1 किलो", "5 किलो"] },
+            { "name_en": "Tomato", "name_mr": "टोमॅटो", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Garlic", "name_mr": "लसूण", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Ginger", "name_mr": "आलं", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Green Chili", "name_mr": "हिरवी मिरची", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Lemon", "name_mr": "लिंबू", "pack_sizes": ["सुटे", "4 नग"] },
+            { "name_en": "Coriander Leaves", "name_mr": "कोथिंबीर", "pack_sizes": ["जुडी"] },
+            { "name_en": "Curry Leaves", "name_mr": "कढीपत्ता", "pack_sizes": ["जुडी"] },
+            { "name_en": "Mint Leaves", "name_mr": "पुदिना", "pack_sizes": ["जुडी"] },
+            { "name_en": "Coconut", "name_mr": "नारळ", "pack_sizes": ["1 नग"] },
+            { "name_en": "Banana", "name_mr": "केळी", "pack_sizes": ["सुटे", "6 नग", "12 नग"] },
+            { "name_en": "Seasonal Vegetables (limited)", "name_mr": "हंगामी भाजीपाला (मर्यादित)", "examples": ["भेंडी", "गवार", "वांगी", "मेथी"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title_en": "Packaged Foods, Snacks, and Condiments",
+      "title_mr": "पॅक केलेले खाद्यपदार्थ, फराळ आणि तोंडीलावणी",
+      "description": "Snacks (farsan), instant foods, condiments, pickles and papads—locally important and high-margin items.",
+      "subsections": [
+        {
+          "id": "4.1",
+          "title_en": "Savory Snacks & Farsan",
+          "title_mr": "फरसाण आणि नमकीन",
+          "items": [
+            { "name_en": "Potato Chips", "name_mr": "बटाटा चिप्स / वेफर्स", "examples": ["Lay's", "Balaji", "Local Brands"], "variants": ["साधे", "मसाला", "टोमॅटो"] },
+            { "name_en": "Banana Chips", "name_mr": "केळी चिप्स / वेफर्स", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Extruded Snacks", "name_mr": "कुरकुरे / एक्सट्रूडेड स्नॅक्स", "examples": ["Kurkure", "Cheetos", "Bingo Tedhe Medhe"] },
+            { "name_en": "Poha Chivda", "name_mr": "पोहे चिवडा", "pack_sizes": ["200 ग्रॅम", "400 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Cornflakes Chivda (Makai Chivda)", "name_mr": "मકાई चिवडा", "pack_sizes": ["200 ग्रॅम", "400 ग्रॅम"] },
+            { "name_en": "Bhadang", "name_mr": "भडंग", "pack_sizes": ["200 ग्रॅम", "400 ग्रॅम"] },
+            { "name_en": "Shev", "name_mr": "शेव", "variants": ["बारीक शेव", "जाडी शेव", "लसूण शेव", "गाठिया"], "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "400 ग्रॅम"] },
+            { "name_en": "Chakli", "name_mr": "चकली", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Shankarpali", "name_mr": "शंकरपाळी", "variants": ["गोड", "तिखट"], "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Bhakarwadi", "name_mr": "भाकरवडी", "pack_sizes": ["200 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Mixed Farsan", "name_mr": "फरसाण मिक्स", "pack_sizes": ["200 ग्रॅम", "400 ग्रॅम", "1 किलो"] },
+            { "name_en": "Bundi", "name_mr": "बुंदी", "variants": ["तिखट", "गोड"], "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Salted Peanuts", "name_mr": "खारे शेंगदाणे", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "400 ग्रॅम"] },
+            { "name_en": "Masala Peanuts", "name_mr": "मसाला शेंगदाणे", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Roasted Gram (Futana)", "name_mr": "फुटाणे", "pack_sizes": ["100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Peanuts", "name_mr": "शेंगदाणे", "pack_sizes": ["सुटे", "250 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Popcorn Kernels", "name_mr": "पॉपकॉर्न (मका)", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम"] }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title_en": "Instant Foods, Noodles, & Pasta",
+          "title_mr": "झटपट पदार्थ, नुडल्स आणि पास्ता",
+          "items": [
+            { "name_en": "Instant Noodles", "name_mr": "इन्स्टंट नुडल्स", "examples": ["Maggi", "Top Ramen", "Yippee!", "Ching's"] },
+            { "name_en": "Hakka Noodles", "name_mr": "हक्का नुडल्स", "pack_sizes": ["150 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Pasta", "name_mr": "पास्ता", "variants": ["पेन्ने", "फ्युसिली"], "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Macaroni", "name_mr": "मॅकरोनी", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Pasta Sauce", "name_mr": "पास्ता सॉस", "pack_sizes": ["250 ग्रॅम जार"] },
+            { "name_en": "Vermicelli (Shevaya)", "name_mr": "शेवया", "variants": ["भाजलेल्या", "साध्या"], "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "400 ग्रॅम"] },
+            { "name_en": "Instant Poha Mix", "name_mr": "इन्स्टंट पोहे मिक्स", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Instant Upma Mix", "name_mr": "इन्स्टंट उपमा मिक्स", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Instant Idli/Dosa Mix", "name_mr": "इन्स्टंट इडली/डोसा मिक्स", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Instant Gulab Jamun Mix", "name_mr": "इन्स्टंट गुलाब जामुन मिक्स", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Instant Dhokla Mix", "name_mr": "इन्स्टंट ढोकळा मिक्स", "pack_sizes": ["200 ग्रॅम"] },
+            { "name_en": "Instant Soup Packets", "name_mr": "इन्स्टंट सूप पाकिटे", "examples": ["Knorr", "Maggi"] },
+            { "name_en": "Ready-to-Eat Meals", "name_mr": "रेडी-टू-इट जेवण", "examples": ["Dal Makhani", "Palak Paneer"], "pack_sizes": ["300 ग्रॅम"] },
+            { "name_en": "Breakfast Cereals", "name_mr": "नाश्त्याचे धान्य (कॉर्नफ्लेक्स, ओट्स)", "examples": ["Kellogg's", "Saffola"], "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Oats", "name_mr": "ओट्स", "variants": ["रोल्ड ओट्स", "मसाला ओट्स"], "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम", "1 किलो"] }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title_en": "Sauces, Spreads, & Jams",
+          "title_mr": "सॉस, स्प्रेड्स आणि जॅम",
+          "items": [
+            { "name_en": "Tomato Ketchup", "name_mr": "टोमॅटो केचप", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम", "1 किलो बाटली", "सॅशे"] },
+            { "name_en": "Red Chili Sauce", "name_mr": "रेड चिली सॉस", "pack_sizes": ["200 ग्रॅम बाटली"] },
+            { "name_en": "Green Chili Sauce", "name_mr": "ग्रीन चिली सॉस", "pack_sizes": ["200 ग्रॅम बाटली"] },
+            { "name_en": "Soy Sauce", "name_mr": "सोया सॉस", "pack_sizes": ["200 ग्रॅम बाटली"] },
+            { "name_en": "Schezwan Sauce/Chutney", "name_mr": "शेजवान सॉस/चटणी", "pack_sizes": ["200 ग्रॅम जार"] },
+            { "name_en": "Vinegar", "name_mr": "व्हिनेगर", "pack_sizes": ["200 मिली बाटली"] },
+            { "name_en": "Ginger-Garlic Paste", "name_mr": "आलं-लसूण पेस्ट", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Tamarind", "name_mr": "चिंच", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Tamarind Paste", "name_mr": "चिंचेचा कोळ / पेस्ट", "pack_sizes": ["200 ग्रॅम"] },
+            { "name_en": "Kokum", "name_mr": "कोकम / आमसूल", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Mixed Fruit Jam", "name_mr": "मिक्स फ्रुट जॅम", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Other Jams", "name_mr": "इतर जॅम", "variants": ["आंबा", "अननस", "स्ट्रॉबेरी"], "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Peanut Butter", "name_mr": "पीनट बटर", "variants": ["क्रिमी", "क्रंची"], "pack_sizes": ["340 ग्रॅम", "510 ग्रॅम"] },
+            { "name_en": "Chocolate Spreads", "name_mr": "चॉकलेट स्प्रेड्स", "examples": ["Nutella"], "pack_sizes": ["180 ग्रॅम", "350 ग्रॅम"] },
+            { "name_en": "Mayonnaise", "name_mr": "मेयोनीज", "variants": ["शाकाहारी", "लसूण"], "pack_sizes": ["100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Mustard Sauce", "name_mr": "मस्टर्ड सॉस", "pack_sizes": ["200 ग्रॅम बाटली"] }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title_en": "Pickles, Papads & Chutneys",
+          "title_mr": "लोणची, पापड आणि चटण्या",
+          "items": [
+            { "name_en": "Mango Pickle", "name_mr": "आंब्याचे लोणचे", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Lemon Pickle", "name_mr": "लिंबाचे लोणचे", "variants": ["तिखट", "गोड"], "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Chili Pickle", "name_mr": "मिरचीचे लोणचे", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Mixed Pickle", "name_mr": "मिक्स लोणचे", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Garlic Pickle", "name_mr": "लसूण लोणचे", "pack_sizes": ["200 ग्रॅम"] },
+            { "name_en": "Sweet Mango Preserve (Muramba)", "name_mr": "मुरांबा", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Gulkand", "name_mr": "गुलकंद", "pack_sizes": ["250 ग्रॅम"] },
+            { "name_en": "Udid Papad", "name_mr": "उडीद पापड", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Moong Papad", "name_mr": "मूग पापड", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Rice Papad (Mirgund)", "name_mr": "तांदळाचे पापड / मिरगुंड", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Potato Papad", "name_mr": "बटाटा पापड", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Sabudana Papad", "name_mr": "साबुदाणा पापड", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Nachni Papad", "name_mr": "नाचणी पापड", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Kurdai", "name_mr": "कुरडई", "variants": ["गव्हाची", "तांदळाची"], "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Sandge", "name_mr": "सांडगे", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Fryums (various shapes)", "name_mr": "तळण्याचे पदार्थ (फ्राईम्स)", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Dry Garlic Chutney", "name_mr": "सुकी लसूण चटणी", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Peanut Chutney (Shengdana Chutney)", "name_mr": "शेंगदाणा चटणी", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] },
+            { "name_en": "Flaxseed Chutney (Jawas Chutney)", "name_mr": "जवस चटणी", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title_en": "Beverages",
+      "title_mr": "पेये",
+      "subsections": [
+        {
+          "id": "5.1",
+          "title_en": "Tea, Coffee, & Health Drinks",
+          "title_mr": "चहा, कॉफी आणि हेल्थ ड्रिंक्स",
+          "items": [
+            { "name_en": "Tea Powder (Leaf)", "name_mr": "चहा पावडर (पान)", "pack_sizes": ["100 ग्रॅम", "250 ग्रॅम", "500 ग्रॅम", "1 किलो"], "brands": ["Tata", "Brooke Bond Red Label", "Wagh Bakri"] },
+            { "name_en": "Tea Powder (Dust)", "name_mr": "चहा पावडर (डस्ट)", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Instant Coffee", "name_mr": "इन्स्टंट कॉफी", "pack_sizes": ["10 ग्रॅम पाऊच", "25 ग्रॅम", "50 ग्रॅम", "100 ग्रॅम जार"], "examples": ["Nescafé", "Bru"] },
+            { "name_en": "Filter Coffee Powder", "name_mr": "फिल्टर कॉफी पावडर", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Health Drinks (Malt-based)", "name_mr": "हेल्थ ड्रिंक्स", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम", "1 किलो"], "examples": ["Bournvita", "Horlicks", "Complan", "Boost", "Milo"] },
+            { "name_en": "Green Tea Bags", "name_mr": "ग्रीन टी बॅग्स", "pack_sizes": ["10 बॅग बॉक्स", "25 बॅग बॉक्स", "50 बॅग बॉक्स"] },
+            { "name_en": "Herbal Tea", "name_mr": "हर्बल टी", "variants": ["तुळस", "आलं"], "pack_sizes": ["25 बॅग बॉक्स"] },
+            { "name_en": "Coffee Creamer / Milk Whitener", "name_mr": "कॉफी क्रीमर / मिल्क व्हाइटनर", "pack_sizes": ["200 ग्रॅम", "400 ग्रॅम"] },
+            { "name_en": "Cocoa Powder", "name_mr": "कोको पावडर", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम"] }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title_en": "Juices, Syrups, & Soft Drinks",
+          "title_mr": "रस, सरबत आणि शीतपेये",
+          "items": [
+            { "name_en": "Packaged Juices", "name_mr": "पॅक केलेले रस", "examples": ["Real", "Tropicana"], "pack_sizes": ["200 मिली", "1 लिटर"] },
+            { "name_en": "Mango Drinks", "name_mr": "मँगो ड्रिंक्स", "examples": ["Frooti", "Maaza", "Slice"], "pack_sizes": ["200 मिली", "600 मिली", "1.2 लिटर", "2 लिटर"] },
+            { "name_en": "Syrups & Squashes", "name_mr": "सरबत आणि स्क्वॅश", "examples": ["गुलाब", "खस", "संत्रा", "आंबा", "लिंबू"], "brands": ["Mapro", "Kissan"], "pack_sizes": ["500 मिली", "750 मिली"] },
+            { "name_en": "Kokum Syrup (Komat Sharbat)", "name_mr": "कोकम सरबत", "pack_sizes": ["500 मिली", "750 मिली"] },
+            { "name_en": "Instant Drink Powder", "name_mr": "इन्स्टंट ड्रिंक पावडर", "examples": ["Rasna", "Tang", "Glucon-D"], "pack_sizes": ["पाऊच", "डबा"] },
+            { "name_en": "Carbonated Soft Drinks", "name_mr": "शीतपेये", "examples": ["Coca-Cola", "Pepsi", "Thums Up", "Sprite", "Fanta"], "pack_sizes": ["250 मिली", "750 मिली", "1.25 लिटर", "2 लिटर"] },
+            { "name_en": "Club Soda", "name_mr": "क्लब सोडा", "pack_sizes": ["300 मिली", "750 मिली"] },
+            { "name_en": "Tonic Water", "name_mr": "टॉनिक वॉटर", "pack_sizes": ["300 मिली"] },
+            { "name_en": "Energy Drinks", "name_mr": "एनर्जी ड्रिंक्स", "examples": ["Red Bull", "Sting"], "pack_sizes": ["250 मिली"] },
+            { "name_en": "Packaged Drinking Water", "name_mr": "पिण्याचे पाणी", "examples": ["Bisleri", "Kinley"], "pack_sizes": ["250 मिली", "500 मिली", "1 लिटर", "2 लिटर", "5 लिटर"] },
+            { "name_en": "Sol Kadhi (Packaged)", "name_mr": "सोल कढी (पॅक)", "pack_sizes": ["200 मिली"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title_en": "Household & Cleaning Supplies",
+      "title_mr": "घरगुती आणि साफसफाईचे साहित्य",
+      "subsections": [
+        {
+          "id": "6.1",
+          "title_en": "Laundry & Fabric Care",
+          "title_mr": "लॉन्ड्री आणि फॅब्रिक केअर",
+          "items": [
+            { "name_en": "Detergent Powder", "name_mr": "डिटर्जंट पावडर", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम", "500 ग्रॅम", "1 किलो", "2 किलो", "4 किलो"], "examples": ["Surf Excel", "Tide", "Rin", "Ghadi"] },
+            { "name_en": "Detergent Bar", "name_mr": "कपडे धुण्याचा साबण", "examples": ["Rin", "Tide", "Fena"] },
+            { "name_en": "Liquid Detergent", "name_mr": "लिक्विड डिटर्जंट", "pack_sizes": ["500 मिली", "1 लिटर"], "examples": ["Surf Excel Matic", "Ariel"] },
+            { "name_en": "Fabric Softener", "name_mr": "फॅब्रिक सॉफ्टनर", "pack_sizes": ["200 मिली", "400 मिली", "800 मिली"], "examples": ["Comfort"] },
+            { "name_en": "Stain Remover", "name_mr": "डाग काढण्याचे लिक्विड", "examples": ["Vanish"], "pack_sizes": ["200 मिली", "400 मिली"] },
+            { "name_en": "Fabric Whitener (Blue)", "name_mr": "नीळ", "examples": ["Ujala", "Robin Blue"] },
+            { "name_en": "Bleaching Powder", "name_mr": "ब्लिचिंग पावडर", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Starch Powder", "name_mr": "स्टार्च पावडर", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] }
+          ]
+        },
+        {
+          "id": "6.2",
+          "title_en": "Kitchen & Dishwashing",
+          "title_mr": "भांडी घासण्याचे पदार्थ",
+          "items": [
+            { "name_en": "Dishwashing Bar", "name_mr": "भांडी घासण्याचा साबण", "examples": ["Vim", "Pril", "Exo"] },
+            { "name_en": "Dishwashing Liquid/Gel", "name_mr": "भांडी घासण्याचे लिक्विड/जेल", "pack_sizes": ["250 मिली", "500 मिली", "750 मिली"], "examples": ["Vim", "Pril"] },
+            { "name_en": "Dishwashing Powder", "name_mr": "भांडी घासण्याची पावडर", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Steel Scrubber", "name_mr": "स्टील स्क्रबर / घासणी", "pack_sizes": ["1 नग", "3 नग पॅक"] },
+            { "name_en": "Sponge Scrub Pad", "name_mr": "स्पंज स्क्रबर", "examples": ["Scotch-Brite"] },
+            { "name_en": "Kitchen Towel Roll", "name_mr": "किचन टॉवेल रोल" },
+            { "name_en": "Paper Napkins", "name_mr": "पेपर नॅपकिन", "pack_sizes": ["50 नग", "100 नग पॅक"] },
+            { "name_en": "Aluminium Foil", "name_mr": "अॅल्युमिनियम फॉईल", "pack_sizes": ["9 मीटर", "20 मीटर"] },
+            { "name_en": "Cling Film", "name_mr": "क्लिंग फिल्म" },
+            { "name_en": "Butter Paper / Parchment Paper", "name_mr": "बटर पेपर" }
+          ]
+        },
+        {
+          "id": "6.3",
+          "title_en": "Home Cleaning & Fresheners",
+          "title_mr": "घर साफसफाई आणि फ्रेशनर्स",
+          "items": [
+            { "name_en": "Floor Cleaner", "name_mr": "फरशी पुसण्याचे लिक्विड", "pack_sizes": ["500 मिली", "1 लिटर"], "examples": ["Lizol", "Dettol", "Domex"] },
+            { "name_en": "Phenyl", "name_mr": "फिनेल", "pack_sizes": ["500 मिली", "1 लिटर"] },
+            { "name_en": "Toilet Cleaner", "name_mr": "टॉयलेट क्लिनर", "pack_sizes": ["500 मिली", "1 लिटर"], "examples": ["Harpic", "Domex"] },
+            { "name_en": "Bathroom Cleaner / Acid", "name_mr": "बाथरूम क्लिनर / ऍसिड", "pack_sizes": ["500 मिली", "1 लिटर"] },
+            { "name_en": "Glass Cleaner", "name_mr": "काच साफ करण्याचे लिक्विड", "pack_sizes": ["250 मिली", "500 मिली"], "examples": ["Colin"] },
+            { "name_en": "Air Freshener Spray", "name_mr": "एअर फ्रेशनर स्प्रे", "examples": ["Air Wick", "Ambi Pur"] },
+            { "name_en": "Air Freshener Blocks", "name_mr": "एअर फ्रेशनर ब्लॉक", "examples": ["Odonil"] },
+            { "name_en": "Mosquito Repellent Liquid", "name_mr": "मच्छरनाशक लिक्विड", "examples": ["Good Knight", "All Out"] },
+            { "name_en": "Mosquito Repellent Coil", "name_mr": "मच्छर अगरबत्ती", "examples": ["Good Knight", "Mortin"] },
+            { "name_en": "Cockroach/Insect Killer Spray", "name_mr": "झुरळ/कीटकनाशक स्प्रे", "examples": ["HIT", "Baygon"] },
+            { "name_en": "Naphthalene Balls", "name_mr": "डांबर गोळ्या", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Broom (Phool Jhadu)", "name_mr": "फूल झाडू" },
+            { "name_en": "Plastic Broom (Kharata)", "name_mr": "प्लास्टिक खराटा" },
+            { "name_en": "Floor Wiper / Mop", "name_mr": "वायपर / मॉप" },
+            { "name_en": "Dustbin / Garbage Bags", "name_mr": "कचरा पिशव्या", "pack_sizes": ["लहान", "मध्यम", "मोठा"] },
+            { "name_en": "Duster Cloth", "name_mr": "फरशी पुसण्याचे कापड" },
+            { "name_en": "Metal Polish", "name_mr": "मेटल पॉलिश", "examples": ["Brasso"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title_en": "Personal Care & Hygiene",
+      "title_mr": "वैयक्तिक काळजी आणि आरोग्य",
+      "subsections": [
+        {
+          "id": "7.1",
+          "title_en": "Bathing & Skin Care",
+          "title_mr": "आंघोळ आणि त्वचा काळजी",
+          "items": [
+            { "name_en": "Bathing Soap", "name_mr": "आंघोळीचा साबण", "examples": ["Lifebuoy", "Lux", "Dove", "Santoor", "Cinthol", "Pears", "Dettol"] },
+            { "name_en": "Body Wash / Shower Gel", "name_mr": "बॉडी वॉश / शॉवर जेल" },
+            { "name_en": "Face Wash", "name_mr": "फेस वॉश", "examples": ["Himalaya", "Clean & Clear", "Garnier"] },
+            { "name_en": "Body Lotion & Moisturizer", "name_mr": "बॉडी लोशन आणि मॉइश्चरायझर", "examples": ["Vaseline", "Nivea", "Pond's"] },
+            { "name_en": "Talcum Powder", "name_mr": "टाल्कम पावडर", "examples": ["Pond's", "Nycil", "Cinthol"] },
+            { "name_en": "Petroleum Jelly", "name_mr": "पेट्रोलियम जेली", "examples": ["Vaseline"] },
+            { "name_en": "Antiseptic Cream", "name_mr": "अँटीसेप्टिक क्रीम", "examples": ["Boroline", "Boro Plus"] },
+            { "name_en": "Sunscreen Lotion", "name_mr": "सनस्क्रीन लोशन" },
+            { "name_en": "Rose Water (Gulab Jal)", "name_mr": "गुलाब जल", "pack_sizes": ["50 मिली", "100 मिली"] },
+            { "name_en": "Lip Balm", "name_mr": "लिप बाम" },
+            { "name_en": "Face Scrub", "name_mr": "फेस स्क्रब" },
+            { "name_en": "Face Pack Powder (Multani Mitti)", "name_mr": "फेस पॅक पावडर (मुलतानी माती)" }
+          ]
+        },
+        {
+          "id": "7.2",
+          "title_en": "Oral & Hair Care",
+          "title_mr": "तोंड आणि केसांची काळजी",
+          "items": [
+            { "name_en": "Toothpaste", "name_mr": "टूथपेस्ट", "examples": ["Colgate", "Pepsodent", "Close Up", "Patanjali Dant Kanti"] },
+            { "name_en": "Tooth Powder", "name_mr": "दंतमंजन", "examples": ["Vicco Vajradanti"] },
+            { "name_en": "Toothbrush", "name_mr": "टूथब्रश" },
+            { "name_en": "Mouthwash", "name_mr": "माउथवॉश", "examples": ["Listerine"] },
+            { "name_en": "Hair Oil", "name_mr": "केसांचे तेल", "examples": ["Parachute", "Bajaj Almond Drops", "Navratna"] },
+            { "name_en": "Shampoo", "name_mr": "शॅम्पू", "examples": ["Clinic Plus", "Sunsilk", "Dove", "Head & Shoulders"], "pack_sizes": ["पाऊच", "बाटली"] },
+            { "name_en": "Conditioner", "name_mr": "कंडीशनर" },
+            { "name_en": "Hair Dye / Color", "name_mr": "हेअर डाय / कलर", "examples": ["Garnier", "Godrej"] },
+            { "name_en": "Henna Powder (Mehendi)", "name_mr": "मेहंदी पावडर", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Hair Gel / Wax", "name_mr": "हेअर जेल / वॅक्स" }
+          ]
+        },
+        {
+          "id": "7.3",
+          "title_en": "Grooming & General Hygiene",
+          "title_mr": "शेविंग आणि सामान्य स्वच्छता",
+          "items": [
+            { "name_en": "Shaving Cream", "name_mr": "शेव्हिंग क्रीम" },
+            { "name_en": "Shaving Foam/Gel", "name_mr": "शेव्हिंग फोम/जेल" },
+            { "name_en": "Shaving Brush", "name_mr": "शेव्हिंग ब्रश" },
+            { "name_en": "Disposable Razors", "name_mr": "डिस्पोजेबल रेझर" },
+            { "name_en": "Razor Blades", "name_mr": "रेझर ब्लेड", "examples": ["Gillette"] },
+            { "name_en": "Aftershave Lotion", "name_mr": "आफ्टरशेव्ह लोशन", "examples": ["Old Spice"] },
+            { "name_en": "Deodorant / Body Spray", "name_mr": "डिओड्रंट / बॉडी स्प्रे", "examples": ["Fogg", "Axe"] },
+            { "name_en": "Sanitary Napkins", "name_mr": "सॅनिटरी नॅपकिन्स", "examples": ["Whisper", "Stayfree"] },
+            { "name_en": "Hand Wash Liquid", "name_mr": "हँड वॉश लिक्विड", "examples": ["Dettol", "Lifebuoy"] },
+            { "name_en": "Hand Sanitizer", "name_mr": "हँड सॅनिटायझर" },
+            { "name_en": "Cotton Balls / Roll", "name_mr": "कापूस (गोळे/रोल)" },
+            { "name_en": "Ear Buds", "name_mr": "इअर बड्स" },
+            { "name_en": "Band-Aids", "name_mr": "बँड-एड" },
+            { "name_en": "Nail Clipper", "name_mr": "नेल कटर" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title_en": "Pooja Essentials",
+      "title_mr": "पूजा साहित्य",
+      "subsections": [
+        {
+          "id": "8.1",
+          "title_en": "Pooja Samagri",
+          "title_mr": "पूजा साहित्य",
+          "items": [
+            { "name_en": "Incense Sticks", "name_mr": "अगरबत्ती" },
+            { "name_en": "Dhoop Sticks / Cones", "name_mr": "धूप" },
+            { "name_en": "Camphor (Kapur)", "name_mr": "कापूर" },
+            { "name_en": "Brass/Steel Lamps (Diya)", "name_mr": "दिवा / समई" },
+            { "name_en": "Cotton Wicks (Vati)", "name_mr": "वाती", "variants": ["फूलवात", "लांब वात"] },
+            { "name_en": "Pooja Oil", "name_mr": "पूजेचे तेल", "variants": ["तिळाचे तेल", "पंचदीप तेल"] },
+            { "name_en": "Ghee for Diya", "name_mr": "दिव्यासाठी तूप" },
+            { "name_en": "Matchbox", "name_mr": "काडेपेटी / माचिस" },
+            { "name_en": "Kumkum", "name_mr": "कुंकू" },
+            { "name_en": "Haldi", "name_mr": "हळद (पूजा)" },
+            { "name_en": "Sindoor", "name_mr": "शेंदूर" },
+            { "name_en": "Sandalwood Paste/Powder (Chandan)", "name_mr": "चंदन (पेस्ट/पावडर)" },
+            { "name_en": "Ashtagandha", "name_mr": "अष्टगंध" },
+            { "name_en": "Sacred Thread (Janeu / Rakshasutra)", "name_mr": "जानवे / रक्षासूत्र (नाडा)" },
+            { "name_en": "Betel Nuts (Supari)", "name_mr": "सुपारी" },
+            { "name_en": "Honey (Madh)", "name_mr": "मध" },
+            { "name_en": "Rangoli Colors", "name_mr": "रांगोळी पावडर" },
+            { "name_en": "Akshata (Colored Rice)", "name_mr": "अक्षता" },
+            { "name_en": "Small Pooja Coconut", "name_mr": "पूजा नारळ" },
+            { "name_en": "Agarbatti Stand", "name_mr": "अगरबत्ती स्टँड" },
+            { "name_en": "Toran / Bandhanwar", "name_mr": "तोरण / बांधणवार" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title_en": "Sweets, Chocolates & Dry Fruits",
+      "title_mr": "गोड पदार्थ, चॉकलेट आणि सुकामेवा",
+      "subsections": [
+        {
+          "id": "9.1",
+          "title_en": "Candies & Chocolates",
+          "title_mr": "चॉकलेट आणि गोळ्या",
+          "items": [
+            { "name_en": "Chocolates", "name_mr": "चॉकलेट", "examples": ["Cadbury Dairy Milk", "KitKat", "5 Star", "Munch", "Perk"] },
+            { "name_en": "Toffees & Candies", "name_mr": "गोळ्या आणि टॉफी", "examples": ["Eclairs", "Alpenliebe", "Pulse", "Kaccha Mango Bite"] },
+            { "name_en": "Lollipops", "name_mr": "लॉलीपॉप" },
+            { "name_en": "Mouth Fresheners", "name_mr": "मुखवास", "examples": ["Pass Pass", "Rajnigandha"] },
+            { "name_en": "Chewing Gum", "name_mr": "च्युइंग गम", "examples": ["Center Fresh", "Orbit"] }
+          ]
+        },
+        {
+          "id": "9.2",
+          "title_en": "Packaged Sweets",
+          "title_mr": "पॅक केलेली मिठाई",
+          "items": [
+            { "name_en": "Soan Papdi", "name_mr": "सोनपापडी", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Gulab Jamun / Rasgulla Tin", "name_mr": "गुलाब जामुन / रसगुल्ला टिन", "pack_sizes": ["500 ग्रॅम", "1 किलो"] },
+            { "name_en": "Peanut Chikki", "name_mr": "शेंगदाणा चिक्की" },
+            { "name_en": "Sesame Chikki", "name_mr": "तिळाची चिक्की" },
+            { "name_en": "Dry Fruit Chikki", "name_mr": "ड्राय फ्रुट चिक्की" },
+            { "name_en": "Revdi / Gajak", "name_mr": "रेवडी / गजक" }
+          ]
+        },
+        {
+          "id": "10.1",
+          "title_en": "Dry Fruits & Nuts",
+          "title_mr": "सुकामेवा",
+          "items": [
+            { "name_en": "Almonds", "name_mr": "बदाम", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Cashews", "name_mr": "काजू", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "250 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Raisins (Kishmish)", "name_mr": "मनुका / किशमिश", "pack_sizes": ["50 ग्रॅम", "100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Walnuts", "name_mr": "अक्रोड", "pack_sizes": ["100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Pistachios", "name_mr": "पिस्ता", "variants": ["खारवलेला", "साधा"], "pack_sizes": ["100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Dates", "name_mr": "खजूर", "pack_sizes": ["200 ग्रॅम", "500 ग्रॅम"] },
+            { "name_en": "Dried Figs (Anjeer)", "name_mr": "अंजीर", "pack_sizes": ["100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Dried Apricots (Jardalu)", "name_mr": "जर्दाळू", "pack_sizes": ["100 ग्रॅम", "250 ग्रॅम"] },
+            { "name_en": "Fox Nuts (Makhana)", "name_mr": "मखाना", "pack_sizes": ["100 ग्रॅम", "200 ग्रॅम"] },
+            { "name_en": "Mixed Dry Fruits", "name_mr": "मिक्स सुकामेवा", "pack_sizes": ["250 ग्रॅम", "500 ग्रॅम"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title_en": "Baby & Pet Care",
+      "title_mr": "बाळ आणि पाळीव प्राणी - काळजी",
+      "subsections": [
+        {
+          "id": "11.1",
+          "title_en": "Baby Care",
+          "title_mr": "बाळाची काळजी",
+          "items": [
+            { "name_en": "Baby Diapers", "name_mr": "डायपर", "pack_sizes": ["S", "M", "L", "XL"] },
+            { "name_en": "Baby Wipes", "name_mr": "बेबी वाइप्स" },
+            { "name_en": "Baby Food / Cereal", "name_mr": "बाळाचे अन्न / सेरेलॅक" },
+            { "name_en": "Infant Formula Milk", "name_mr": "फॉर्म्युला दूध" },
+            { "name_en": "Baby Soap", "name_mr": "बाळ साबण" },
+            { "name_en": "Baby Shampoo", "name_mr": "बेबी शॅम्पू" },
+            { "name_en": "Baby Oil", "name_mr": "बेबी ऑइल" },
+            { "name_en": "Baby Powder", "name_mr": "बेबी पावडर" },
+            { "name_en": "Gripe Water", "name_mr": "ग्राईप वॉटर" },
+            { "name_en": "Feeding Bottle", "name_mr": "फीडिंग बाटली" }
+          ]
+        },
+        {
+          "id": "11.2",
+          "title_en": "Pet Supplies",
+          "title_mr": "पाळीव प्राणी - साहित्य",
+          "items": [
+            { "name_en": "Dog Food (Dry)", "name_mr": "कुत्र्याचे खाद्य (ड्राय)", "pack_sizes": ["1 किलो", "3 किलो"], "examples": ["Pedigree"] },
+            { "name_en": "Dog Biscuits", "name_mr": "कुत्र्याचे बिस्किटे" },
+            { "name_en": "Cat Food (Dry)", "name_mr": "मांजराचे खाद्य (ड्राय)", "pack_sizes": ["1 किलो"], "examples": ["Whiskas"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title_en": "Miscellaneous",
+      "title_mr": "इतर वस्तू",
+      "subsections": [
+        {
+          "id": "12.1",
+          "title_en": "Stationery & Small Items",
+          "title_mr": "स्टेशनरी आणि इतर लहान वस्तू",
+          "items": [
+            { "name_en": "Pens", "name_mr": "पेन" },
+            { "name_en": "Pencils", "name_mr": "पेन्सिल" },
+            { "name_en": "Eraser & Sharpener", "name_mr": "रबर आणि शार्पनर" },
+            { "name_en": "Notebooks", "name_mr": "नोटबुक / वही" },
+            { "name_en": "Batteries", "name_mr": "बॅटरी सेल", "pack_sizes": ["AA", "AAA"] },
+            { "name_en": "Candles", "name_mr": "मेणबत्ती" },
+            { "name_en": "Lighter", "name_mr": "लायटर" },
+            { "name_en": "Lighter Gas Refill", "name_mr": "लायटर गॅस रिफिल" },
+            { "name_en": "Sewing Needle & Thread", "name_mr": "सुई आणि दोरा" },
+            { "name_en": "Safety Pins", "name_mr": "सेफ्टी पिन" },
+            { "name_en": "Glue / Adhesive", "name_mr": "गोंद / फेविकॉल" },
+            { "name_en": "Cellotape", "name_mr": "सेलोटेप" }
+          ]
+        },
+        {
+          "id": "12.2",
+          "title_en": "OTC & First Aid",
+          "title_mr": "औषधे आणि प्राथमिक उपचार",
+          "items": [
+            { "name_en": "Pain Reliever Tablets", "name_mr": "डोकेदुखी/वेदना गोळ्या", "examples": ["Crocin", "Saridon"] },
+            { "name_en": "Pain Balm", "name_mr": "पेन बाम", "examples": ["Zandu Balm", "Amrutanjan", "Iodex"] },
+            { "name_en": "Cough Drops / Lozenges", "name_mr": "खोकल्याच्या गोळ्या", "examples": ["Vicks", "Halls"] },
+            { "name_en": "Antacid Tablets/Liquid", "name_mr": "ऍसिडिटी औषध", "examples": ["Eno", "Gelusil", "Digene"] },
+            { "name_en": "ORS Powder", "name_mr": "ओआरएस पावडर" },
+            { "name_en": "Glucose Powder", "name_mr": "ग्लुकोज पावडर" },
+            { "name_en": "Antiseptic Liquid", "name_mr": "अँटीसेप्टिक लिक्विड", "examples": ["Dettol", "Savlon"] },
+            { "name_en": "Vapor Rub", "name_mr": "वेपर रब", "examples": ["Vicks"] }
+          ]
+        }
+      ]
+    }
+  ]
+}
