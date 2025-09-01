@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Receipt Telegram System</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c5530;
+            border-bottom: 3px solid #0088cc;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #4a7c59;
+            margin-top: 25px;
+        }
+        .step {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 4px solid #0088cc;
+            border-radius: 5px;
+        }
+        .code-block {
+            background: #2d3748;
+            color: #f7fafc;
+            padding: 20px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+        }
+        .preview {
+            background: white;
+            border: 2px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .pdf-preview {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.4;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .success {
+            background: #f0fff4;
+            border: 1px solid #9ae6b4;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .info {
+            background: #eff6ff;
+            border: 1px solid #93c5fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .warning {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PDF Receipt via Telegram Bot</h1>
+        
+        <p>This system will send you order notifications as PDF files that you can directly print with your shop header and order details.</p>
+
+        <div class="info">
+            <h3>What You'll Get:</h3>
+            <ul>
+                <li><strong>PDF File</strong> - Professional printable format</li>
+                <li><strong>Your Shop Header</strong> - Name, address, phone number</li>
+                <li><strong>Order Details</strong> - ID, customer info, items list</li>
+                <li><strong>Blank Price Columns</strong> - Space to add your rates</li>
+                <li><strong>Direct Download</strong> - Save to phone/computer</li>
+                <li><strong>Ready to Print</strong> - Standard A4 size</li>
+            </ul>
+        </div>
+
+        <div class="preview">
+            <h3>PDF Receipt Preview:</h3>
+            <div class="pdf-preview">
+                <div style="text-align: center; border-bottom: 2px solid #000; padding-bottom: 10px; margin-bottom: 15px;">
+                    <strong>गजानन ट्रेडिंग कंपनी</strong><br>
+                    बस स्टँड समोर, मुख्य रस्ता<br>
+                    मंठा, जालना - 431504<br>
+                    फोन: +91-98765-43210
+                </div>
+                
+                <div style="margin-bottom: 15px;">
+                    <strong>ऑर्डर ID:</strong> 1704067200000<br>
+                    <strong>दिनांक:</strong> 15/12/2024, 02:30 PM<br>
+                    <strong>ग्राहक:</strong> राज पाटील<br>
+                    <strong>फोन:</strong> 9876543210<br>
+                    <strong>पिकअप वेळ:</strong> 15/12/2024 - 6:00 PM
+                </div>
+                
+                <div style="border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 5px 0;">
+                    <div style="display: flex; justify-content: space-between; font-weight: bold;">
+                        <span>वस्तू</span>
+                        <span>मात्रा</span>
+                        <span>दर</span>
+                        <span>रक्कम</span>
+                    </div>
+                </div>
+                
+                <div style="padding: 10px 0;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 8px; padding-bottom: 5px; border-bottom: 1px dotted #333;">
+                        <span>बासमती तांदूळ (5kg)</span>
+                        <span>1</span>
+                        <span>____</span>
+                        <span>____</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 8px; padding-bottom: 5px; border-bottom: 1px dotted #333;">
+                        <span>तूर डाळ</span>
+                        <span>2</span>
+                        <span>____</span>
+                        <span>____</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 8px; padding-bottom: 5px; border-bottom: 1px dotted #333;">
+                        <span>गहू (25kg)</span>
+                        <span>1</span>
+                        <span>____</span>
+                        <span>____</span>
+                    </div>
+                </div>
+                
+                <div style="border-top: 2px solid #000; padding-top: 10px;">
+                    <div style="display: flex; justify-content: space-between; font-weight: bold;">
+                        <span>एकूण रक्कम:</span>
+                        <span>₹ _______</span>
+                    </div>
+                </div>
+                
+                <div style="text-align: center; margin-top: 15px; font-size: 12px;">
+                    कृपया ग्राहकाला फोन करून ऑर्डर कन्फर्म करा<br>
+                    धन्यवाद! पुन्हा भेट द्या!
+                </div>
+            </div>
+        </div>
+
+        <h2>Step 1: Add PDF Generation Library</h2>
+        <div class="step">
+            <p>Add jsPDF library to your HTML head section:</p>
+            <div class="code-block">
+&lt;!-- Add this to your index.html head section --&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"&gt;&lt;/script&gt;
+            </div>
+        </div>
+
+        <h2>Step 2: PDF Generation Code</h2>
+        <div class="step">
+            <p>Add this code to your <code>script.js</code> file:</p>
+            <div class="code-block">
+
+            </div>
+        </div>
+
+        <h2>Step 3: Update Order Confirmation Function</h2>
+        <div class="step">
+            <p>Modify your <code>confirmOrder</code> function:</p>
+            <div class="code-block">
+
+            </div>
+        </div>
+
+        <h2>Step 4: Configure Your Details</h2>
+        <div class="step">
+            <p>Update the configuration with your shop details:</p>
+            <div class="code-block">
+            </div>
+        </div>
+
+        <div class="success">
+            <h3>What You'll Get in Telegram:</h3>
+            <ul>
+                <li><strong>PDF File</strong> - Professional receipt format</li>
+                <li><strong>Download Option</strong> - Save to phone/computer</li>
+                <li><strong>Print Ready</strong> - Standard A4 size</li>
+                <li><strong>Your Shop Header</strong> - Name, address, phone clearly displayed</li>
+                <li><strong>Customer Details</strong> - Name, phone, pickup time</li>
+                <li><strong>Items List</strong> - With quantities and pack sizes</li>
+                <li><strong>Blank Price Columns</strong> - Space to write your rates manually</li>
+                <li><strong>Total Calculation Area</strong> - For final amount</li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <h3>How to Use:</h3>
+            <ol>
+                <li><strong>Get Notification</strong> - PDF file appears in Telegram chat</li>
+                <li><strong>Download PDF</strong> - Tap to download to your phone</li>
+                <li><strong>Print</strong> - Print directly or save for later</li>
+                <li><strong>Fill Prices</strong> - Write your rates in blank columns</li>
+                <li><strong>Calculate Total</strong> - Add up all amounts</li>
+                <li><strong>Call Customer</strong> - Confirm order with final price</li>
+                <li><strong>Prepare Order</strong> - Use receipt as picking list</li>
+            </ol>
+        </div>
+
+        <div class="warning">
+            <h3>Requirements:</h3>
+            <ul>
+                <li><strong>jsPDF Library</strong> - Must be included in your website</li>
+                <li><strong>Modern Browser</strong> - Supports PDF generation</li>
+                <li><strong>Telegram Bot</strong> - Set up with proper permissions</li>
+                <li><strong>Internet Connection</strong> - For sending files</li>
+            </ul>
+        </div>
+
+        <p><strong>Yes, you will get PDF files with your shop header and order details that you can directly download and print!</strong></p>
+    </div>
+</body>
+</html>

@@ -876,7 +876,7 @@ function closeCheckout() {
     document.getElementById('pickup-time').value = '';
 }
 
-function confirmOrder() {
+async function confirmOrder() {
     const name = document.getElementById('customer-name').value.trim();
     const phone = document.getElementById('customer-phone').value.trim();
     const date = document.getElementById('pickup-date').value;
@@ -892,6 +892,12 @@ function confirmOrder() {
         return;
     }
     
+    // Show loading state
+    const confirmBtn = document.getElementById('confirm-order');
+    const originalText = confirmBtn.innerHTML;
+    confirmBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> PDF तयार करत आहे...';
+    confirmBtn.disabled = true;
+    
     // Generate order
     const order = {
         id: Date.now(),
@@ -902,6 +908,15 @@ function confirmOrder() {
         status: 'confirmed'
     };
     
+    // Send PDF to Telegram
+    const pdfSent = await sendPDFToTelegram(order);
+    
+    if (pdfSent) {
+        showNotification('ऑर्डर कन्फर्म झाला! PDF रसीद Telegram वर पाठवली गेली.', 'success');
+    } else {
+        showNotification('ऑर्डर कन्फर्म झाला! परंतु PDF पाठवण्यात त्रुटी.', 'error');
+    }
+    
     generateReceipt(order);
     closeCheckout();
     
@@ -910,7 +925,9 @@ function confirmOrder() {
     updateCartDisplay();
     renderProducts();
     
-    showNotification('ऑर्डर कन्फर्म झाला! रसीद तयार केली गेली.', 'success');
+    // Reset button
+    confirmBtn.innerHTML = originalText;
+    confirmBtn.disabled = false;
 }
 
 // Receipt functions
@@ -1130,4 +1147,178 @@ function cancelCustomSize(productId) {
     const customBtn = packSelector.querySelector('.custom-size-btn');
     customBtn.textContent = 'Custom';
     customBtn.dataset.size = 'custom';
+}
+
+// PDF Configuration
+const PDF_CONFIG = {
+    storeName: 'गजानन ट्रेडिंग कंपनी',
+    address: 'बस स्टँड समोर, मुख्य रस्ता\nमंठा, जालना - 431504',
+    phone: '+91-98765-43210',
+    
+    // Telegram Bot Config
+    telegram: {
+        botToken: 'YOUR_BOT_TOKEN',
+        chatId: 'YOUR_CHAT_ID'
+    }
+};
+
+// Function to generate PDF receipt
+function generatePDFReceipt(order) {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    
+    // Set font for Devanagari (if available)
+    doc.setFont('helvetica');
+    
+    let yPos = 20;
+    
+    // Store Header
+    doc.setFontSize(16);
+    doc.setFont('helvetica', 'bold');
+    doc.text(PDF_CONFIG.storeName, 105, yPos, { align: 'center' });
+    
+    yPos += 10;
+    doc.setFontSize(10);
+    doc.setFont('helvetica', 'normal');
+    const addressLines = PDF_CONFIG.address.split('\n');
+    addressLines.forEach(line => {
+        doc.text(line, 105, yPos, { align: 'center' });
+        yPos += 5;
+    });
+    
+    doc.text(`Phone: ${PDF_CONFIG.phone}`, 105, yPos, { align: 'center' });
+    
+    // Line separator
+    yPos += 10;
+    doc.line(20, yPos, 190, yPos);
+    yPos += 10;
+    
+    // Order Details
+    doc.setFontSize(10);
+    doc.text(`Order ID: ${order.id}`, 20, yPos);
+    yPos += 7;
+    doc.text(`Date: ${new Date().toLocaleString('en-IN')}`, 20, yPos);
+    yPos += 7;
+    doc.text(`Customer: ${order.customer.name}`, 20, yPos);
+    yPos += 7;
+    doc.text(`Phone: ${order.customer.phone}`, 20, yPos);
+    yPos += 7;
+    doc.text(`Pickup Time: ${order.pickupDateTime}`, 20, yPos);
+    
+    // Items Header
+    yPos += 15;
+    doc.line(20, yPos, 190, yPos);
+    yPos += 7;
+    
+    doc.setFont('helvetica', 'bold');
+    doc.text('Item', 20, yPos);
+    doc.text('Qty', 120, yPos);
+    doc.text('Rate', 140, yPos);
+    doc.text('Amount', 165, yPos);
+    
+    yPos += 5;
+    doc.line(20, yPos, 190, yPos);
+    yPos += 10;
+    
+    // Items List
+    doc.setFont('helvetica', 'normal');
+    order.items.forEach(item => {
+        const itemName = item.product.name_en + (item.selectedPackSize ? ` (${item.selectedPackSize})` : '');
+        
+        // Handle long item names
+        if (itemName.length > 35) {
+            const lines = doc.splitTextToSize(itemName, 90);
+            doc.text(lines, 20, yPos);
+            yPos += (lines.length * 5);
+        } else {
+            doc.text(itemName, 20, yPos);
+            yPos += 7;
+        }
+        
+        doc.text(item.quantity.toString(), 120, yPos - 7);
+        doc.text('_____', 140, yPos - 7);
+        doc.text('_____', 165, yPos - 7);
+        
+        // Dotted line
+        for (let x = 20; x < 190; x += 3) {
+            doc.circle(x, yPos - 2, 0.2, 'F');
+        }
+        yPos += 5;
+    });
+    
+    // Total Section
+    yPos += 10;
+    doc.line(20, yPos, 190, yPos);
+    yPos += 10;
+    
+    doc.setFont('helvetica', 'bold');
+    doc.text(`Total Items: ${order.items.reduce((sum, item) => sum + item.quantity, 0)}`, 20, yPos);
+    yPos += 10;
+    doc.text('Total Amount: Rs. _______', 130, yPos);
+    
+    // Footer
+    yPos += 20;
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(9);
+    doc.text('Please call customer to confirm order', 105, yPos, { align: 'center' });
+    yPos += 7;
+    doc.text('Thank you! Visit again!', 105, yPos, { align: 'center' });
+    yPos += 10;
+    doc.text('* Fill rates according to your stock *', 105, yPos, { align: 'center' });
+    
+    return doc;
+}
+
+// Function to send PDF via Telegram
+async function sendPDFToTelegram(order) {
+    try {
+        // Generate PDF
+        const pdfDoc = generatePDFReceipt(order);
+        const pdfBlob = pdfDoc.output('blob');
+        
+        // Convert blob to base64
+        const reader = new FileReader();
+        reader.readAsDataURL(pdfBlob);
+        
+        return new Promise((resolve, reject) => {
+            reader.onloadend = async () => {
+                try {
+                    const base64data = reader.result.split(',')[1];
+                    
+                    // Create FormData for file upload
+                    const formData = new FormData();
+                    formData.append('chat_id', PDF_CONFIG.telegram.chatId);
+                    formData.append('document', pdfBlob, `Order_${order.id}.pdf`);
+                    formData.append('caption', `🧾 New Order Receipt\nCustomer: ${order.customer.name}\nPhone: ${order.customer.phone}\nPickup: ${order.pickupDateTime}`);
+                    
+                    // Send to Telegram
+                    const response = await fetch(`https://api.telegram.org/bot${PDF_CONFIG.telegram.botToken}/sendDocument`, {
+                        method: 'POST',
+                        body: formData
+                    });
+                    
+                    const result = await response.json();
+                    
+                    if (result.ok) {
+                        console.log('PDF sent successfully to Telegram');
+                        resolve(true);
+                    } else {
+                        console.error('Telegram API error:', result);
+                        resolve(false);
+                    }
+                } catch (error) {
+                    console.error('Error sending PDF:', error);
+                    resolve(false);
+                }
+            };
+            
+            reader.onerror = () => {
+                reject(false);
+            };
+        });
+        
+    } catch (error) {
+        console.error('PDF generation error:', error);
+        return false;
+    }
 }
